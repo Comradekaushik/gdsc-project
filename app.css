@@ -295,7 +295,7 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     flex-direction: row;
     align-items: center;
-    min-height: 80px;
+    min-height: 93px;
 }
 .latest-news-left-section-rows-photo-container{
     width: 25%;
