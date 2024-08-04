@@ -1,0 +1,428 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+body{
+    padding-top: 10vh;
+    background-color: rgb(24, 28, 35);
+    padding-bottom: 200px;
+}
+
+
+#top-header{
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color: rgb(24, 28, 35);
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index : 1000; /*top most*/
+    padding-left: 3%;
+    padding-right: 3%;
+
+}
+#top-header-logo{
+    max-width: 30%;
+}
+#buttons-top-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-height: 100%;
+
+}
+#top-header-about-btn{
+    margin-left: auto;
+    background-color: rgb(221, 22, 59);
+    color: white;
+    border-style: solid;
+    border-color: rgb(221, 22, 59);
+    width: 100px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 3px;
+}
+#top-header-login-btn{
+    margin-left: 15px;
+    background-color: rgb(221, 22, 59);
+    color: white;
+    border-style: solid;
+    border-color: rgb(221, 22, 59) ;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 3px;
+}
+#top-wall-section{
+
+    max-width: 100%;
+    position: relative;
+    z-index : 990;
+    background-color: rgb(24, 28, 35);
+    display: flex;
+    justify-content: center;
+    padding-left: 3%;
+    padding-right: 3%;
+
+}
+#wallpaper-image-container{
+    max-width: 94%;
+}
+#wallpaper-image{
+    max-width: 100%;
+    border-radius: 6px;
+}
+#join-us-message-wall{
+    position: absolute;
+    width: 20%;
+    top: 10%;
+    right: 10%;
+    background-color: rgb(4, 3, 26);
+    height: 75%;
+    border-radius: 6px;
+    color: white;
+    overflow-y: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+
+}
+
+#join-us-message-wall::-webkit-scrollbar {
+    width: 10px;
+}
+  
+ 
+#join-us-message-wall::-webkit-scrollbar-track {
+    
+    border-radius: 10px;
+    background-color: rgb(4, 3, 26);
+}
+  
+  
+#join-us-message-wall::-webkit-scrollbar-thumb {
+    background: rgb(41, 46, 56);
+    border-radius: 10px;
+}
+
+#join-us-message-wall-heading{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+
+}
+#join-us-message-wall-main-message{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: rgb(139, 148, 165) ;
+
+}
+
+#tiles-section{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    padding-left: 6%;
+    padding-right: 6%;
+    
+    height: 12vh;
+    /* background-color:rgb(24, 28, 35) ; */
+    /* background-color: red; */
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.svgs-tile{
+    height: 9vh;
+   
+}
+.tile-title-view-more{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#tile-about{
+  height: 100%;
+  width: 25%;
+  background-color: rgb(41, 46, 56);
+  padding-left: 1%;
+  display: flex;
+  align-items: center;
+  border-style: solid;
+  border-color: rgb(41, 46, 56) ;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  color: white;
+
+    
+}
+#tile-about-icon{
+    background-color: green;
+    width: 35%;
+}
+#tile-organisers{
+    height: 100%;
+    width: 25%;
+    padding-left: 1%;
+    background-color: rgb(41, 46, 56);
+    /* color: #ffffff; */
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-color: rgb(41, 46, 56) ;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+
+    
+}
+#tile-events{
+    height: 100%;
+    width: 25%;
+    padding-left: 1%;
+    background-color: rgb(41, 46, 56);
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-color: rgb(41, 46, 56) ;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+}
+.tile-link-view-more{
+    color: rgb(221, 22, 59);
+    font-size: medium;
+}
+#event-svg{
+   
+    color: white;
+}
+
+#latest-news-title-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 6%;
+    height: 7vh;
+    margin-top: 2.5vh;
+    
+    /* background-color: bisque; */
+}
+#latest-news-title{
+    border-left-style: solid;
+    border-left-color:rgb(221, 22, 59);
+    border-left-width: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: white;
+    padding-left: 1%;
+
+}
+#latest-news{
+    width: 100%;
+    /* background-color: blueviolet; */
+    height: 70vh;
+    padding-left: 6%;
+    padding-right: 6%;
+    display: flex;
+    flex-direction: row;
+
+}
+#latest-news-left-section{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    
+    height: 100%;
+    overflow-y: auto;
+    
+    
+
+}
+#latest-news-left-section::-webkit-scrollbar {
+    width: 10px;
+}
+  
+ 
+#latest-news-left-section::-webkit-scrollbar-track {
+    
+    border-radius: 10px;
+    background-color: rgb(4, 3, 26);
+}
+  
+  
+#latest-news-left-section::-webkit-scrollbar-thumb {
+    background: rgb(95, 100, 109);
+    border-radius: 10px;
+}
+.latest-news-left-section-rows{
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    height: 25%;
+    background-color: rgb(41, 46, 56);
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 80px;
+}
+.latest-news-left-section-rows-photo-container{
+    width: 25%;
+    height: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    
+
+    
+}
+.latest-news-left-section-rows-photos{
+    max-height: 100%;
+    max-width: 100%;
+    
+    border-style: solid;
+    border-radius: 6px;
+    border-color: transparent;
+}
+.latest-news-left-section-rows-title-description-container{
+    
+    width: 75%;
+    margin-right: 10px;
+    background-color: rgb(41, 46, 56);;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+.latest-news-left-section-rows-title{
+    height: 30%;
+    margin-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: white;
+    font-weight: 600;
+
+}
+.latest-news-left-section-rows-description{
+    height: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: white;
+    
+}
+.latest-news-left-section-rows-date{
+    margin-bottom: 4px;
+    margin-top: auto;
+    height: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: white;
+    
+}
+#latest-news-right-section{
+    background-color: rgb(41, 46, 56);
+    width:50%;
+    height: 100%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    overflow-y: scroll;
+    padding-bottom: 50px;
+    
+
+}
+#latest-news-right-section::-webkit-scrollbar {
+    width: 10px;
+}
+  
+ 
+#latest-news-right-section::-webkit-scrollbar-track {
+    
+    border-radius: 10px;
+    background-color: rgb(4, 3, 26);
+    background-color: transparent;
+}
+  
+  
+#latest-news-right-section::-webkit-scrollbar-thumb {
+    background: rgb(95, 100, 109);
+    border-radius: 10px;
+}
+#latest-news-right-section-img-container{
+    width: 100%;
+}
+#latest-news-right-section-img{
+    width: 100%;
+
+}
+#latest-news-right-section-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: white;
+    margin-left: 10px;
+
+
+} 
+
+#latest-news-right-section-description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#latest-news-right-section-read-more{
+    color: rgb(221, 22, 59);
+    font-size: medium;
+    margin-left: 10px;
+    
+}
+#latest-news-right-section-view-more-description{
+    color: rgb(221, 22, 59);
+    font-size: medium;
+
+}
+
+a:link {
+    color: rgb(221, 22, 59);
+    background-color: transparent;
+    /* text-decoration: none; */
+}
+  
+a:visited {
+    color: rgb(221, 22, 59);
+    background-color: transparent;
+    /* text-decoration: none; */
+}
+  
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+  
+#content{
+    display: none;
+} 
