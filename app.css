@@ -6,7 +6,7 @@
 body{
     padding-top: 10vh;
     background-color: rgb(24, 28, 35);
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 body::-webkit-scrollbar {
     width: 12px;
@@ -766,6 +766,317 @@ a:active {
     background: rgb(95, 100, 109);
     border-radius: 5px;
 }
+
+#footer{
+    width: 100%;
+    height : 60vh;
+    min-height: 300px;
+    padding-left: 6%;
+    padding-right: 6%;
+    /* background-color: aqua; */
+    background-color:rgb(24, 28, 35) ;
+    margin-top: 50px;
+}
+
+#footer-content{
+    /* background-color: rgb(255, 0, 204); */
+    background-color: rgb(41, 46, 56);
+    display: flex;
+    /* align-items: center; */
+    height: 100%;
+    
+    /* justify-content: space-between; */
+
+}
+
+
+
+#footer-leftside{
+    width: 48%;
+    margin-right: 4%;
+    
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* padding-left: 6%; */
+    /* height: 7vh; */
+    /* margin-top: 2.5vh; */
+    /* background-color: blanchedalmond; */
+    background-color: rgb(41, 46, 56);
+    
+    /* background-color: bisque; */
+}
+#footer-contact-info-title-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 6%;
+    height: 7vh;
+    margin-top: 2.5vh;
+
+}
+#footer-contact-info-title{
+    border-left-style: solid;
+    border-left-color:rgb(221, 22, 59);
+    border-left-width: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: white;
+    padding-left: 1%;
+
+}
+
+#address-container{
+    width: 100%;
+    /* background-color: aquamarine; */
+    padding-left: 6%;
+    margin-top: 15px;
+    /* flex-shrink: 0; */
+
+}
+#address-footer{
+    /* border-left-style: solid; */
+    /* border-left-color:rgb(221, 22, 59); */
+    /* border-left-width: 5px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: white;
+    padding-left: 1%;
+
+
+}
+#send-us-a-message{
+
+}
+
+#send-us-a-message-footer-right{
+    width: 48%;
+    
+    
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* padding-left: 6%; */
+    /* height: 7vh; */
+    /* margin-top: 2.5vh; */
+    /* background-color: rgb(114, 71, 8); */
+    background-color: rgb(41, 46, 56);
+
+}
+
+#send-us-a-message-title-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 6%;
+    height: 7vh;
+    margin-top: 2.5vh;
+    /* background-color: blue; */
+    
+
+}
+#send-us-a-message-title{
+    border-left-style: solid;
+    border-left-color:rgb(221, 22, 59);
+    border-left-width: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: white;
+    padding-left: 1%;
+
+}
+#footer-form-container{
+    display: flex;
+    /* background-color: aquamarine; */
+    background-color: rgb(41, 46, 56);
+    align-items: center;
+    padding-left: 6%;
+    padding-top: 20px;
+    padding-right: 6%;
+
+}
+#footer-form{
+    width: 100%;
+
+}
+#footer-form-elements-container{
+    width: 100%;
+    /* background-color: chartreuse; */
+    background-color: rgb(41, 46, 56);
+    
+
+}
+#email-and-name-container{
+    width: 100%;
+    display: flex;
+    margin-bottom: 12px;
+}
+#name-input-container{
+    width: 48%;
+    /* background-color: brown; */
+    height: 35px;
+    /* margin-bottom: 10px; */
+    margin-right: 4%;
+
+
+}
+#footer-name-input{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-width: 2px;
+    border-color:rgb(221, 22, 59) ;
+    /* border-color: rgb(24, 28, 35); */
+    /* border-color: white; */
+    border-radius: 6px;
+    background-color:rgb(41, 46, 56) ;
+    color: white;
+
+}
+
+#footer-name-input:focus{
+    border-style: solid;
+    /* border-color: orange; */
+    /* background-color: yellow; */
+    /* border-color:rgb(221, 22, 59) ; */
+    outline: none;
+    color: white;
+    border-color:rgb(255, 255, 255) ;
+
+
+    /* border-color:rgb(221, 22, 59) ; */
+
+
+}
+
+
+#footer-name-input::placeholder {
+    /* color: red; */
+    padding-left: 2px;
+    /* opacity: 1;  */
+  }
+  
+#footer-name-input::-ms-input-placeholder { /* Edge 12 -18 */
+    /* color: red; */
+    padding-left: 2px;
+}
+#email-input-container{
+    width: 48%;
+    height: 35px;
+   
+    /* margin-bottom: 10px; */
+
+}
+#footer-email-input{
+    width: 100%;
+    height: 100%;
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color:rgb(221, 22, 59) ;
+    /* border-color: rgb(24, 28, 35); */
+    /* border-color: white; */
+    border-radius: 6px;
+    background-color:rgb(41, 46, 56) ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+#footer-email-input:focus{
+    border-style: solid;
+    /* border-color: orange; */
+    /* background-color: yellow; */
+    /* border-color:rgb(221, 22, 59) ; */
+    border-color:rgb(255, 255, 255) ;
+    outline: none;
+    color: white;
+
+    /* border-color:rgb(221, 22, 59) ; */
+
+
+}
+#footer-email-input::placeholder {
+    /* color: red; */
+    padding-left: 2px;
+    /* opacity: 1;  */
+  }
+  
+#footer-email-input::-ms-input-placeholder { /* Edge 12 -18 */
+    /* color: red; */
+    padding-left: 2px;
+}
+#message-input-container{
+    width: 100%;
+    height: 30vh;
+    min-height: 100px;
+    margin-bottom: 12px;
+
+}
+#footer-message-input{
+    width: 100%;
+    height: 100%;
+    resize: none;
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color:rgb(221, 22, 59) ;
+    /* border-color: rgb(24, 28, 35); */
+    /* border-color: white; */
+    border-radius: 6px;
+    background-color:rgb(41, 46, 56) ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#footer-message-input:focus{
+    border-style: solid;
+    /* border-color: orange; */
+    /* background-color: yellow; */
+    border-color:rgb(255, 255, 255) ;
+    outline: none;
+    color: white;
+    
+
+}
+#footer-message-input::placeholder {
+    /* color: red; */
+    padding-left: 2px;
+    /* opacity: 1;  */
+  }
+  
+#footer-message-input::-ms-input-placeholder { /* Edge 12 -18 */
+    /* color: red; */
+    padding-left: 2px;
+}
+#submit-input-container{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 10px; */
+    padding-bottom: 10px;
+    
+
+}
+#footer-submit-input{
+    width: 30%;
+
+    /* margin-left: auto; */
+    background-color: rgb(221, 22, 59);
+    color: white;
+    border-style: solid;
+    border-color: rgb(221, 22, 59);
+    min-width: fit-content;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    
+
+}
+
+
 
 
   
