@@ -766,6 +766,144 @@ a:active {
     background: rgb(95, 100, 109);
     border-radius: 5px;
 }
+#inside-form-login-container{
+    width: 100%;
+    /* background-color: aqua; */
+    background-color:rgb(41, 46, 56) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+
+}
+#inside-form-login-email-input-container{
+    width: 68%;
+    /* background-color: brown; */
+    height: 35px;
+    margin-bottom: 10px;
+    /* margin-right: 4%; */
+
+}
+#login-email-input{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-width: 2px;
+    border-color:rgb(221, 22, 59) ;
+    /* border-color: rgb(24, 28, 35); */
+    /* border-color: white; */
+    border-radius: 6px;
+    background-color:rgb(41, 46, 56) ;
+    color: white;
+
+}
+
+#login-email-input:focus{
+    border-style: solid;
+    /* border-color: orange; */
+    /* background-color: yellow; */
+    /* border-color:rgb(221, 22, 59) ; */
+    outline: none;
+    color: white;
+    border-color:rgb(255, 255, 255) ;
+
+
+    /* border-color:rgb(221, 22, 59) ; */
+
+
+}
+
+
+#login-email-input::placeholder {
+    /* color: red; */
+    padding-left: 2px;
+    /* opacity: 1;  */
+  }
+  
+#login-email-input::-ms-input-placeholder { /* Edge 12 -18 */
+    /* color: red; */
+    padding-left: 2px;
+}
+#inside-form-login-password-input-container{
+    width: 68%;
+    /* background-color: brown; */
+    height: 35px;
+    margin-bottom: 10px;
+
+}
+
+
+#login-password-input{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-width: 2px;
+    border-color:rgb(221, 22, 59) ;
+    /* border-color: rgb(24, 28, 35); */
+    /* border-color: white; */
+    border-radius: 6px;
+    background-color:rgb(41, 46, 56) ;
+    color: white;
+
+}
+
+#login-password-input:focus{
+    border-style: solid;
+    /* border-color: orange; */
+    /* background-color: yellow; */
+    /* border-color:rgb(221, 22, 59) ; */
+    outline: none;
+    color: white;
+    border-color:rgb(255, 255, 255) ;
+
+
+    /* border-color:rgb(221, 22, 59) ; */
+
+
+}
+
+
+#login-password-input::placeholder {
+    /* color: red; */
+    padding-left: 2px;
+    /* opacity: 1;  */
+  }
+  
+#login-password-input::-ms-input-placeholder { /* Edge 12 -18 */
+    /* color: red; */
+    padding-left: 2px;
+}
+
+#inside-form-login-submit-input-container{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 10px; */
+    padding-bottom: 10px;
+    
+
+}
+#login-submit-input{
+    width: 60px;
+
+    /* margin-left: auto; */
+    background-color: rgb(221, 22, 59);
+    color: white;
+    border-style: solid;
+    border-color: rgb(221, 22, 59);
+    min-width: fit-content;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    
+
+}
+
 
 #footer{
     width: 100%;
